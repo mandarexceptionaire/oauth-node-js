@@ -39,7 +39,6 @@
     <Content Include="public\images\success.jpg" />
     <Content Include="package.json" />
     <Content Include="public\stylesheets\style.styl" />
-    <Content Include="README.md" />
     <Content Include="views\display.jade" />
     <Content Include="views\index.jade" />
     <Content Include="views\layout.jade" />
@@ -47,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\" />
+    <Folder Include="node_modules\" />
     <Folder Include="node_modules\app\" />
     <Folder Include="public\" />
     <Folder Include="public\images\" />
