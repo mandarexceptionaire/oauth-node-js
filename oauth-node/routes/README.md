@@ -1,5 +1,5 @@
 ## Routes
 
-![Alt text](./images/routes.JPG "Routes work")
+![Alt text](../images/routes.JPG "Routes work")
 
 
