@@ -21,7 +21,7 @@ router.get('/', function (req, res) {
         var requestToken = qs.parse(data)
         sessionData.oauth_token_secret = requestToken.oauth_token_secret
         console.log(requestToken)
-        res.redirect('https://appcenter.intuit.com/Connect/Begin?oauth_token=' + requestToken.oauth_token)
+        res.redirect(config.AuthorizeUrl + requestToken.oauth_token)
     })
 });
 module.exports = router;

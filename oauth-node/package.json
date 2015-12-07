@@ -7,8 +7,8 @@
   },
   "description": "oauth-node",
   "author": {
-    "name": "smadhavan",
-    "email": ""
+    "name": "sumod madhavan",
+    "email": "sumod_madhavan@intuit.com"
   },
   "dependencies": {
     "express": "~4.9.0",

@@ -10,8 +10,8 @@ router.get('/', function (req, res) {
     sessionData.AccessToken = '';
     sessionData.AccessTokenSecret = '';
     sessionData.Port = config.Port;
-    var postBody = {
-        url: 'https://oauth.intuit.com/oauth/v1/get_access_token',
+    var getAccessToken = {
+        url: config.ACCESS_TOKEN_URL    ,
         oauth: {
             consumer_key: config.consumerKey,
             consumer_secret: config.consumerSecret,
@@ -21,7 +21,7 @@ router.get('/', function (req, res) {
             realmId: req.query.realmId
         }
     }
-    request.post(postBody, function (e, r, data) {
+    request.post(getAccessToken, function (e, r, data) {
         var accessTokenLocal = qs.parse(data);
         sessionData.AccessToken = accessTokenLocal.oauth_token;
         sessionData.AccessTokenSecret = accessTokenLocal.oauth_token_secret;
