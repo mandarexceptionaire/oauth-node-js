@@ -37,7 +37,7 @@ This is not a seed project to be taken cart blanche and deployed to your product
 3. An app on developer.intuit.com and the associated app token, consumer key, and consumer secret.
 
 ## Configuration
-![Alt text](images/config.JPG "Configurations"
+![Alt text](images/config.JPG "Configurations")
 
 ## Dependencies
 ![Alt text](images/depend.JPG "Dependencies")
@@ -46,7 +46,7 @@ This is not a seed project to be taken cart blanche and deployed to your product
 
 - Clone the GitHub repo to your workspace
 
-Note: This sample is used for understanding how oauth works
+  Note: This sample is used for understanding how oauth works
 
 - Configure the app tokens: Go to your app on developer.intuit.com and copy the OAuth Consumer Key and OAuth Consumer Token from the keys tab. Add these values to the file node_modules\app\config.js in our oauth-node folder.
 
@@ -58,7 +58,7 @@ Note: This sample is used for understanding how oauth works
 
 Once the sample app code is on your computer, follow the steps below to run the app:
 
-- Run the command node app.js 
+- Run the command **node app.js** 
 
 - Go to Browser -> localhost:3001 -> Enter
 
@@ -70,18 +70,21 @@ Once the sample app code is on your computer, follow the steps below to run the 
 
 **Refer : Screen Shots**
 
-## How Oauth Works
+## How Oauth Works:
 
--- The following simple sequence diagram should help you understand the flow.
+- The following simple sequence diagram should help you understand the flow.
+
 
 ![Alt text](images/seq.png "sequence diagram on oauth")
 
-## Understanding the http flow.
+## Understanding the http flow:
+
+- Your http request flow should look like this.
 
 ![Alt text](images/fiddle.JPG "Fiddler request look")
 
 
-## How does your SSL handshake look
+## How does your SSL handshake look:
 
 - Make sure you have your port 443 open for SSL handshake to commit to intuit server.
 
@@ -90,18 +93,32 @@ Once the sample app code is on your computer, follow the steps below to run the 
 ## Screen Shots
 
 **Listener**
+
+
 ![Alt text](images/listen.JPG "Listener")
 
 **Index**
+
+
 ![Alt text](images/index.JPG "Index")
 
+
 **Connect**
+
+
 ![Alt text](images/connect.JPG "Connect")
 
+
 **Authorize**
+
+
 ![Alt text](images/authorize.JPG "Authorize")
 
+
+
 **Access Tokens**
+
+
 ![Alt text](images/result.JPG "access tokens")
 
 
