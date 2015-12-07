@@ -35,7 +35,7 @@ This is not a seed project to be taken cart blanche and deployed to your product
 * [How Oauth Works](#how-oauth-works)
 * [Understanding the http flow](#understanding-the-http-flow)
 * [How does your SSL handshake look](#how-does-your-SSL-handshake-look)
-* [Screen Shots](#screen-shots)
+* [Watch & Learn](#watch--learn)
 * [Feedback](#feedback)
 * [Contributing to the Repository](#contributing-to-the-repository)
 
@@ -113,36 +113,10 @@ Once the sample app code is on your computer, follow the steps below to run the 
 
 ![Alt text](images/ssl.JPG "SSL Handshake")
 
-## Screen Shots
+## Watch & Learn
 
-**Listener**
-
-
-![Alt text](images/listen.JPG "Listener")
-
-**Index**
-
-
-![Alt text](images/index.JPG "Index")
-
-
-**Connect**
-
-
-![Alt text](images/connect.JPG "Connect")
-
-
-**Authorize**
-
-
-![Alt text](images/authorize.JPG "Authorize")
-
-
-
-**Access Tokens**
-
-
-![Alt text](images/result.JPG "access tokens")
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=r1GUrXfHbB0
+" target="_blank">![Alt text](images/authorize.JPG "Fiddler request look")</a>
 
 
 ## Feedback

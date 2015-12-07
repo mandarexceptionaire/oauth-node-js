@@ -9,7 +9,7 @@ var
 router.get('/', function (req, res) {
     var sessionData = req.session;
     sessionData.oauth_token_secret = '';
-    var postBody = {
+    var getrequestToken = {
         url: config.REQUEST_TOKEN_URL,
         oauth: {
             callback: 'http://localhost:' + 3001 + '/callback/',
@@ -17,7 +17,7 @@ router.get('/', function (req, res) {
             consumer_secret: config.consumerSecret
         }
     }
-    request.post(postBody, function (e, r, data) {
+    request.post(getrequestToken, function (e, r, data) {
         var requestToken = qs.parse(data)
         sessionData.oauth_token_secret = requestToken.oauth_token_secret
         console.log(requestToken)
