@@ -26,21 +26,35 @@ This is not a seed project to be taken cart blanche and deployed to your product
 ## Table of Contents
 
 * [Prerequisites](#prerequisites)
+* [Configuration](#configuration)
+* [Dependencies](#dependencies)
 * [First Use Instructions](#first-use-instructions)
 * [Running the app](#running-the-app)
 * [Project Structure](#project-structure)
+* [How Oauth Works](#how-oauth-works)
+* [Understanding the http flow](#understanding-the-http-flow)
+* [How does your SSL handshake look](#how-does-your-SSL-handshake-look)
+* [Screen Shots](#screen-shots)
+* [Feedback](#feedback)
+* [Contributing to the Repository](#contributing-to-the-repository)
+
 
 ## Prerequisites
 
 1. ![Alt text](images/require.jpg "Pre-Requisite")
-2. Developer.intuit.com account
-3. An app on developer.intuit.com and the associated app token, consumer key, and consumer secret.
+2. [Developer](https://developer.intuit.com/,"Developer Account") account
+3. An app on [Developer](https://developer.intuit.com/,"Developer Account") and the associated app token, consumer key, and consumer secret.
 
 ## Configuration
+
+- Navigate to node_modules\app\config.js to update the config.
+
 ![Alt text](images/config.jpg "Configurations")
+
 
 ## Dependencies
 ![Alt text](images/depend.JPG "Dependencies")
+
 
 ## First Use Instructions:
 
@@ -54,7 +68,7 @@ This is not a seed project to be taken cart blanche and deployed to your product
 
 - Run npm install to make sure all the dependencies are installed from package.json
 
-## Run the App:
+## Run the App
 
 Once the sample app code is on your computer, follow the steps below to run the app:
 
@@ -70,21 +84,26 @@ Once the sample app code is on your computer, follow the steps below to run the 
 
 **Refer : Screen Shots**
 
-## How Oauth Works:
+## Project structure
+
+![Alt text](images/project.JPG "Project Structure")
+
+
+## How Oauth Works
 
 - The following simple sequence diagram should help you understand the flow.
 
 
 ![Alt text](images/seq.png "sequence diagram on oauth")
 
-## Understanding the http flow:
+## Understanding the http flow
 
 - Your http request flow should look like this.
 
 ![Alt text](images/fiddle.JPG "Fiddler request look")
 
 
-## How does your SSL handshake look:
+## How does your SSL handshake look
 
 - Make sure you have your port 443 open for SSL handshake to commit to intuit server.
 
