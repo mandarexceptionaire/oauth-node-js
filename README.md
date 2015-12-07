@@ -37,7 +37,7 @@ This is not a seed project to be taken cart blanche and deployed to your product
 3. An app on developer.intuit.com and the associated app token, consumer key, and consumer secret.
 
 ## Configuration
-![Alt text](images/config.JPG "Configurations")
+![Alt text](images/config.JPG "Configurations"
 
 ## Dependencies
 ![Alt text](images/depend.JPG "Dependencies")
@@ -60,23 +60,15 @@ Once the sample app code is on your computer, follow the steps below to run the 
 
 - Run the command node app.js 
 
-![Alt text](images/listen.JPG "Listener")
-
 - Go to Browser -> localhost:3001 -> Enter
-
-![Alt text](images/index.JPG "Index")
 
 - Connect your app to Quickbooks, by clicking on Connect to QuickBooks button and follow the instructions on the screen.
 
-![Alt text](images/connect.JPG "Connect")
-
-![Alt text](images/authorize.JPG "Authorize")
-
 - After successfully connecting the app to QuickBooks.
 
-- You shous view the access token and access secret. Refer the screen shot section.
+- You shous view the access token and access secret. 
 
-![Alt text](images/result.JPG "access tokens")
+**Refer : Screen Shots**
 
 ## How Oauth Works
 
@@ -94,6 +86,24 @@ Once the sample app code is on your computer, follow the steps below to run the 
 - Make sure you have your port 443 open for SSL handshake to commit to intuit server.
 
 ![Alt text](images/ssl.JPG "SSL Handshake")
+
+## Screen Shots
+
+**Listener**
+![Alt text](images/listen.JPG "Listener")
+
+**Index**
+![Alt text](images/index.JPG "Index")
+
+**Connect**
+![Alt text](images/connect.JPG "Connect")
+
+**Authorize**
+![Alt text](images/authorize.JPG "Authorize")
+
+**Access Tokens**
+![Alt text](images/result.JPG "access tokens")
+
 
 ## Feedback
 
