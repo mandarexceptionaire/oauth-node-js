@@ -32,7 +32,7 @@ This is not a seed project to be taken cart blanche and deployed to your product
 
 ## Prerequisites
 
-1. ![Alt text](images/require.JPG "Pre-Requisite")
+1. ![Alt text](images/require.jpg "Pre-Requisite")
 2. Developer.intuit.com account
 3. An app on developer.intuit.com and the associated app token, consumer key, and consumer secret.
 
@@ -87,17 +87,6 @@ Once the sample app code is on your computer, follow the steps below to run the 
 ## Understanding the http flow.
 
 ![Alt text](images/fiddle.JPG "Fiddler request look")
-
-#	Result	Protocol	Host	URL	Body	Caching	Content-Type	Process	Comments	Custom	ClientConnected	
-2	302	HTTPS	appcenter.intuit.com	/Connect/SessionStart?grantUrl=http%3A%2F%2Flocalhost%3A3001%2Fconnect&datasources=quickbooks	14,918	private, s-maxage=0	text/html; charset=utf-8	chrome:3052			14:29:24.276	
-3	302	HTTP	localhost:3001	/connect	262		text/html; charset=utf-8	chrome:3052			14:29:26.059	
-5	302	HTTPS	appcenter.intuit.com	/Connect/Begin?oauth_token=qyprdH5jx5DpTtdA5ODRNYgTjgKow5OVhgM5XY6P176r1bDM	14,967	private, s-maxage=0	text/html; charset=utf-8	chrome:3052			14:29:27.511	
-7	200	HTTPS	appcenter.intuit.com	/Connect/CompanySelection?oauth_token=qyprdH5jx5DpTtdA5ODRNYgTjgKow5OVhgM5XY6P176r1bDM	10,958	private, s-maxage=0	text/html; charset=utf-8	chrome:3052			14:29:38.325	
-22	200	HTTPS	appcenter.intuit.com	/Connect/Authorize?oauth_token=qyprdH5jx5DpTtdA5ODRNYgTjgKow5OVhgM5XY6P176r1bDM&realmId=1292747760	11,050	private, s-maxage=0	text/html; charset=utf-8	chrome:3052			14:29:38.325	
-52	302	HTTPS	appcenter.intuit.com	/Connect/Authorize	15,048	private, s-maxage=0	text/html; charset=utf-8	chrome:3052			14:29:38.325	
-60	200	HTTP	localhost:3001	/callback/?oauth_token=qyprdH5jx5DpTtdA5ODRNYgTjgKow5OVhgM5XY6P176r1bDM&oauth_verifier=pc9v6uq&realmId=1292747760&dataSource=QBO	132		text/html; charset=utf-8	chrome:3052			14:29:53.972	
-62	200	HTTP	localhost:3001	/display	284		text/html; charset=utf-8	chrome:3052			14:29:53.972	
-63	304	HTTP	localhost:3001	/images/success.jpg	0	public, max-age=0		chrome:3052			14:29:53.972	
 
 
 ## How does your SSL handshake look
