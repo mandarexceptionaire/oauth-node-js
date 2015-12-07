@@ -31,6 +31,7 @@ This is not a seed project to be taken cart blanche and deployed to your product
 * [First Use Instructions](#first-use-instructions)
 * [Running the app](#running-the-app)
 * [Project Structure](#project-structure)
+* [Routes](#routes)
 * [How Oauth Works](#how-oauth-works)
 * [Understanding the http flow](#understanding-the-http-flow)
 * [How does your SSL handshake look](#how-does-your-SSL-handshake-look)
@@ -86,8 +87,11 @@ Once the sample app code is on your computer, follow the steps below to run the 
 
 ## Project structure
 
-![Alt text](images/project.JPG "Project Structure")
+![Alt text](images/routes.JPG "Routes work")
 
+## Routes
+
+![Alt text](images/project.JPG "Project Structure")
 
 ## How Oauth Works
 
