@@ -66,7 +66,7 @@ This is not a seed project to be taken cart blanche and deployed to your product
 
 - Make sure you specify a port which is not used.
 
-- Run npm install to make sure all the dependencies are installed from package.json
+- Run **npm install** to make sure all the dependencies are installed from package.json
 
 ## Run the App
 
@@ -80,7 +80,7 @@ Once the sample app code is on your computer, follow the steps below to run the 
 
 - After successfully connecting the app to QuickBooks.
 
-- You shous view the access token and access secret. 
+- You should be in a position to view the access token and access secret. 
 
 **Refer : Screen Shots**
 
