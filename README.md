@@ -87,11 +87,11 @@ Once the sample app code is on your computer, follow the steps below to run the 
 
 ## Project structure
 
-![Alt text](images/routes.JPG "Routes work")
+![Alt text](images/project.JPG "Project Structure")
 
 ## Routes
 
-![Alt text](images/project.JPG "Project Structure")
+![Alt text](images/routes.JPG "Routes work")
 
 ## How Oauth Works
 
