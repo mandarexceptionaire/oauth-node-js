@@ -48,7 +48,7 @@ This is not a seed project to be taken cart blanche and deployed to your product
 
 ## Configuration
 
-- Navigate to node_modules\app\config.js to update the config.
+- Navigate to **node_modules\app\config.js** to update the config.
 
 ![Alt text](images/config.jpg "Configurations")
 
@@ -75,7 +75,7 @@ Once the sample app code is on your computer, follow the steps below to run the 
 
 - Run the command **node app.js** 
 
-- Go to Browser -> localhost:3001 -> Enter
+- Go to Browser > **localhost:3001** > Enter
 
 - Connect your app to Quickbooks, by clicking on Connect to QuickBooks button and follow the instructions on the screen.
 
@@ -83,7 +83,7 @@ Once the sample app code is on your computer, follow the steps below to run the 
 
 - You should be in a position to view the access token and access secret. 
 
-**Refer : Screen Shots**
+**Refer : Watch and Learn**
 
 ## Project structure
 
@@ -130,6 +130,4 @@ If you find any issues or opportunities for improving this respository, fix them
 ## Reporting Issues ###
 
 If you find any issues with this demo that you can't fix, feel free to report them in the issue section of this repository.
-
-
 
