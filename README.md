@@ -69,7 +69,7 @@ This is not a seed project to be taken cart blanche and deployed to your product
 
 - Run **npm install** to make sure all the dependencies are installed from package.json
 
-## Run the App
+## Running the app
 
 Once the sample app code is on your computer, follow the steps below to run the app:
 
@@ -109,7 +109,7 @@ Once the sample app code is on your computer, follow the steps below to run the 
 
 ## How does your SSL handshake look
 
-- Make sure you have your port 443 open for SSL handshake to commit to intuit server.
+- Make sure you have your port **443** open for SSL handshake to commit to intuit server.
 
 ![Alt text](images/ssl.JPG "SSL Handshake")
 
