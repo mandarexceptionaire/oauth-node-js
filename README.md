@@ -61,9 +61,9 @@ This is not a seed project to be taken cart blanche and deployed to your product
 
 - Clone the GitHub repo to your workspace
 
-  Note: This sample is used for understanding how oauth works
+  **Note:** This sample is used for understanding how oauth works
 
-- Configure the app tokens: Go to your app on developer.intuit.com and copy the OAuth Consumer Key and OAuth Consumer Token from the keys tab. Add these values to the file node_modules\app\config.js in our oauth-node folder.
+- Configure the app tokens: Go to your app on developer.intuit.com and copy the OAuth Consumer Key and OAuth Consumer Token from the keys tab. Add these values to the file **node_modules\app\config.js** in our oauth-node folder.
 
 - Make sure you specify a port which is not used.
 
