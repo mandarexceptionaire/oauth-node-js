@@ -116,7 +116,7 @@ Once the sample app code is on your computer, follow the steps below to run the 
 ## Watch & Learn
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=r1GUrXfHbB0
-" target="_blank">![Alt text](images/authorize.JPG "Fiddler request look")</a>
+" target="_blank">![Alt text](images/authorize.JPG "Watch and Learn")</a>
 
 
 ## Feedback
