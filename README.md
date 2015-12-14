@@ -32,9 +32,9 @@ This is not a seed project to be taken cart blanche and deployed to your product
 * [Running the app](#running-the-app)
 * [Project Structure](#project-structure)
 * [Routes](#routes)
-* [How Oauth Works](#how-oauth-works)
-* [Understanding the http flow](#understanding-the-http-flow)
-* [How does your SSL handshake look](#how-does-your-SSL-handshake-look)
+* [Sequence Diagram - INTUIT OAUTH 1.0](#sequence-diagram)
+* [Http Emit](#http-emit)
+* [SSL Emit](#ssl-emit)
 * [Watch & Learn](#watch--learn)
 * [Feedback](#feedback)
 * [Contributing to the Repository](#contributing-to-the-repository)
@@ -93,21 +93,21 @@ Once the sample app code is on your computer, follow the steps below to run the 
 
 ![Alt text](images/routes.JPG "Routes work")
 
-## How Oauth Works
+## Sequence Diagram - INTUIT OAUTH 1.0
 
 - The following simple sequence diagram should help you understand the flow.
 
 
 ![Alt text](images/seq.png "sequence diagram on oauth")
 
-## Understanding the http flow
+## Http Emit
 
 - Your http request flow should look like this.
 
 ![Alt text](images/fiddle.JPG "Fiddler request look")
 
 
-## How does your SSL handshake look
+## SSL Emit
 
 - Make sure you have your port **443** open for SSL handshake to commit to intuit server.
 
