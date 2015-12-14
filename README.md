@@ -32,7 +32,7 @@ This is not a seed project to be taken cart blanche and deployed to your product
 * [Running the app](#running-the-app)
 * [Project Structure](#project-structure)
 * [Routes](#routes)
-* [Sequence Diagram - INTUIT OAUTH 1.0](#sequence-diagram)
+* [Sequence Diagram](#sequence-diagram)
 * [Http Emit](#http-emit)
 * [SSL Emit](#ssl-emit)
 * [Watch & Learn](#watch--learn)
@@ -93,7 +93,7 @@ Once the sample app code is on your computer, follow the steps below to run the 
 
 ![Alt text](images/routes.JPG "Routes work")
 
-## Sequence Diagram - INTUIT OAUTH 1.0
+## Sequence Diagram
 
 - The following simple sequence diagram should help you understand the flow.
 
