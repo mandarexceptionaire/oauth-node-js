@@ -95,7 +95,7 @@ Once the sample app code is on your computer, follow the steps below to run the 
 
 ## Sequence Diagram
 
-- The following simple sequence diagram should help you understand the flow.
+- The following sequence diagram should help you understand the oauth handshake sequence.
 
 
 ![Alt text](images/seq.png "sequence diagram on oauth")
