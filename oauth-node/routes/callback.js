@@ -4,7 +4,7 @@ var config = require('app/config');
 var 
     request = require('request'),
     qs = require('querystring')
-/* GET users listing. */
+/* GET the access token. */
 router.get('/', function (req, res) {
     var sessionData = req.session;
     sessionData.AccessToken = '';
@@ -30,6 +30,5 @@ router.get('/', function (req, res) {
             res.send('<!DOCTYPE html><html lang="en"><head></head><body><script>window.opener.location = "/display";window.close();</script></body></html>')
         }
     })
-    //res.send('<!DOCTYPE html><html lang="en"><head></head><body><script>window.opener.location.reload(); window.close();</script></body></html>')
 });
 module.exports = router;

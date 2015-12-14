@@ -5,7 +5,7 @@ var
     request = require('request'),
     qs = require('querystring')
 
-/* GET users listing. */
+/* Get the request token. */
 router.get('/', function (req, res) {
     var sessionData = req.session;
     sessionData.oauth_token_secret = '';
