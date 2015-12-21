@@ -98,7 +98,14 @@ Once the sample app code is on your computer, follow the steps below to run the 
 - The following sequence diagram should help you understand the oauth handshake sequence.
 
 
+
 ![Alt text](images/seq.png "sequence diagram on oauth")
+
+
+- Layman understanding of quickbooks oauth mystery revealed.
+
+
+![Alt text](images/qbauth.png "Quickbooks Oauth Mystery revealed")
 
 ## Http Emit
 
