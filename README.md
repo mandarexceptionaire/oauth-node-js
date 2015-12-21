@@ -109,7 +109,7 @@ Once the sample app code is on your computer, follow the steps below to run the 
 
 ## Http Emit
 
-- Http request from top-down view from fiddler. Please observe the Protocol | Host | URL section.
+- Http request from top-down view from fiddler. Please observe the **Protocol | Host | URL** section.
 
 ![Alt text](images/fiddle.JPG "Fiddler request look")
 
