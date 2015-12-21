@@ -109,14 +109,14 @@ Once the sample app code is on your computer, follow the steps below to run the 
 
 ## Http Emit
 
-- Your http request flow should look like this.
+- Http request from top-down view from fiddler. Please observe the Protocol | Host | URL section.
 
 ![Alt text](images/fiddle.JPG "Fiddler request look")
 
 
 ## SSL Emit
 
-- Make sure you have your port **443** open for SSL handshake to commit to intuit server.
+- Make sure you have your port **443** open for SSL handshake to commit to intuit server. Please observe the undergoing SSL handshake from the application layer in network monitor.
 
 ![Alt text](images/ssl.JPG "SSL Handshake")
 
