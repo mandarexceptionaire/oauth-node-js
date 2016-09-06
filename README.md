@@ -36,7 +36,6 @@ This is not a seed project to be taken cart blanche and deployed to your product
 * [Http Emit](#http-emit)
 * [SSL Emit](#ssl-emit)
 * [Watch & Learn](#watch--learn)
-* [Feedback](#feedback)
 * [Contributing to the Repository](#contributing-to-the-repository)
 
 
@@ -126,10 +125,6 @@ Once the sample app code is on your computer, follow the steps below to run the 
 " target="_blank">![Alt text](images/authorize.JPG "Watch and Learn")</a>
 
 
-## Feedback
-
-Your feed back is appreciated and it will motivate us to improve the app. Please send your valuable feedback to sumod_madhavan@intuit.com. I will try my best to incorporate the valid requests.
- 
 ## Contributing to the Repository ###
 
 If you find any issues or opportunities for improving this respository, fix them!  Feel free to contribute to this project by [forking](http://help.github.com/fork-a-repo/) this repository and make changes to the content.  Once you've made your changes, share them back with the community by sending a pull request. Please see [How to send pull requests](http://help.github.com/send-pull-requests/) for more information about contributing to Github projects. Please help in writing test cases to the Test Project.
